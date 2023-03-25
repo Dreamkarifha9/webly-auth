@@ -26,6 +26,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## ER_DIAGRAM
+
+```bash
+$ https://dbdiagram.io/d/641ea62f5758ac5f172407d6
+```
+
 ## Installation
 
 ```bash
