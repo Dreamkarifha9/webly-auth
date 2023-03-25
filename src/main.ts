@@ -6,8 +6,8 @@ import { Transport } from '@nestjs/microservices';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 import { AppModule } from './app.module';
-import { ErrorInterceptor } from './auth/interceptors/error.interceptor';
-import { RpcExceptionFilter } from './shared/exception/rpc-exception-filter';
+import { ErrorInterceptor } from './shared/interceptors/error.interceptor';
+
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
